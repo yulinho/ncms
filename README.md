@@ -1,10 +1,10 @@
-# NoderCMS - 轻量级内容管理系统
+# ncms - 轻量级内容管理系统
 
-NoderCMS 使用 Node.js + MongoDB 开发，拥有灵活的内容模型以及完善的权限角色机制。
+ncms 使用 Node.js + MongoDB 开发，拥有灵活的内容模型以及完善的权限角色机制。
 
 [官方网站](http://www.nodercms.com) | [帮助中心](http://www.nodercms.com/help) | QQ 群：369888346
 
-## NoderCMS 演示
+## ncms 演示
 
 - 地址：[http://demo.nodercms.com](http://demo.nodercms.com)
 - 后台：[http://demo.nodercms.com/admin](http://demo.nodercms.com/admin)
@@ -33,10 +33,10 @@ $ npm start
 
 ### 常见问题
 
-- [使用 Nginx 来反向代理 NoderCMS](http://www.nodercms.com/help/installation/shi-yong-nginx-lai-fan-xiang-dai-li-duo-ge-nodercms)
-- [使用 pm2 来守护 NoderCMS](http://www.nodercms.com/help/installation/shi-yong-pm2-lai-shou-hu-nodercms)
+- [使用 Nginx 来反向代理 ncms](http://www.nodercms.com/help/installation/shi-yong-nginx-lai-fan-xiang-dai-li-duo-ge-nodercms)
+- [使用 pm2 来守护 ncms](http://www.nodercms.com/help/installation/shi-yong-pm2-lai-shou-hu-nodercms)
 - [推荐调用使用说明](http://www.nodercms.com/help/themes/features)
 
 ## License
 
-NoderCMS is MIT licensed, as found in the LICENSE file.
+ncms is MIT licensed, as found in the LICENSE file.

@@ -138,7 +138,7 @@ exports.testDatabase = function (req, res) {
         if (hasInstall) {
           var err = {
             type: 'system',
-            error: '非法调用，NoderCMS 已经安装'
+            error: '非法调用，ncms 已经安装'
           };
           return callback(err);
         }
@@ -309,7 +309,7 @@ exports.install = function (req, res) {
         if (hasInstall) {
           var err = {
             type: 'system',
-            error: 'NoderCMS 已经安装'
+            error: 'ncms 已经安装'
           };
           return callback(err);
         }
@@ -339,7 +339,7 @@ exports.install = function (req, res) {
       return res.status(500).end();
     }
 
-    logger.system().info(__dirname, 'NoderCMS 成功安装');
+    logger.system().info(__dirname, 'ncms 成功安装');
 
     res.status(204).end();
   });

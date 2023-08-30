@@ -71,7 +71,7 @@ exports.install = function (options, callback) {
         if (hasInstall) {
           var err = {
             type: 'system',
-            error: '非法调用，NoderCMS 已经安装'
+            error: '非法调用，ncms 已经安装'
           };
 
           return callback(err);

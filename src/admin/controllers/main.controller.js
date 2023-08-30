@@ -42,7 +42,7 @@ angular.module('controllers').controller('main', ['$scope', '$http',
 			});
 
 		/**
-		 * NoderCMS 官方信息
+		 * ncms 官方信息
 		 */
 		$http.get('http://console.nodercms.com/openApi/info')
 			.then(function (res) {
