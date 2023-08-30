@@ -146,7 +146,8 @@ exports.install = function(options, callback) {
         }],
         writeInstallLock: ['writeCase', function(callback) {
             try {
-                fs.writeFile('install.lock', true, function(err) {
+                let file_content = `true`
+                fs.writeFile('install.lock', file_content, function(err) {
                     if (err) {
                         err.type = 'system';
                         return callback(err);
@@ -155,9 +156,12 @@ exports.install = function(options, callback) {
                     callback();
                 });
             } catch (ex) {
+                let err = {
+                    message: ex
+                }
                 console.log(`---写入install.lock失败,请注意权限---`, ex);
+                err.type = 'system';
                 return callback(err);
-                callback();
             }
         }]
     }, function(err, results) {
